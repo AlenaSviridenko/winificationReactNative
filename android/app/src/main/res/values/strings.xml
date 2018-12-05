@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">winification</string>
+    <string name="facebook_app_id">539148999845361</string>
+    <string name="fb_login_protocol_scheme">fb539148999845361</string>
+</resources>

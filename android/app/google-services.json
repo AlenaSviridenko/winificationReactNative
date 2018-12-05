@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "986042481334",
+    "firebase_url": "https://winification-f6a50.firebaseio.com",
+    "project_id": "winification-f6a50",
+    "storage_bucket": "winification-f6a50.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:986042481334:android:5125cc2b48487b7b",
+        "android_client_info": {
+          "package_name": "com.winification"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "986042481334-245rgt4qc8vbee0n26v8dt5rah4rteqq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAG_jk5K_4gz-pF-01MSstw7-xFkvcfdB4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
