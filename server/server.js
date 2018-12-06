@@ -1,15 +1,12 @@
 var express = require('express');
 var mongoose = require('mongoose');
-var path = require('path');
 var async = require('async');
 var bcrypt = require('bcrypt');
 var log = require('./utils/log')(module);
 var config = require('./config.json');
+var creds = require('./creds.json');
 var nodemailer = require('nodemailer');
-var passport = require('passport');
-var LocalStrategy = require('passport-local').Strategy;
 var crypto = require('crypto');
-var xoauth2 = require('xoauth2');
 
 var logger = require('morgan');
 var session = require('express-session');
@@ -139,10 +136,7 @@ app.post('/forgot', function(req, res) {
             if (!err) {
                 var smtpTransport = nodemailer.createTransport({
                     service: 'SendGrid',
-                    auth: {
-                        user: 'asviridenko',
-                        pass: 'ASpass1234!'
-                    }
+                    auth: creds
                 });
                 var mailOptions = {
                     to: user.email,
